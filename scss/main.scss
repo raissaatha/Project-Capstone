@@ -1,0 +1,14 @@
+@import './utilities/colors';
+@import './utilities/global';
+@import './utilities/typography';
+
+@import './components/navbar';
+@import './components/carousel';
+@import './components/header';
+@import './components/footer';
+@import './components/buttons';
+
+@import './section/category';
+@import './section/product';
+
+@import './responsive/mobile';
