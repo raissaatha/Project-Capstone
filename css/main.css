@@ -10,6 +10,10 @@ body {
   background-color: #f2f2f2;
 }
 
+.text-orange {
+  color: #ff914d;
+}
+
 h1,
 h2,
 h3,
@@ -179,7 +183,7 @@ p {
 }
 
 .footer {
-  margin-top: 5rem;
+  margin-top: 2.5rem;
   background-color: #1c1c1c;
   padding: 2.5rem 0;
   color: #eaeaea;
@@ -218,6 +222,10 @@ p {
 
 .btn-orange {
   background-color: #ff914d !important;
+  color: #fff;
+}
+.btn-orange:hover {
+  background-color: #ff711a !important;
   color: #fff;
 }
 
@@ -320,6 +328,94 @@ p {
 }
 .product__item-rating i {
   color: #ffcc00;
+}
+
+.payment {
+  padding: 7.5rem 0;
+  padding-bottom: 2.5rem;
+}
+.payment__header {
+  margin-bottom: 1rem;
+}
+.payment__section {
+  padding: 1rem;
+  border: 1px solid #e5e5e5;
+  border-radius: 1rem;
+  background-color: #fff;
+  margin-bottom: 1.5rem;
+}
+.payment__section-total {
+  display: flex;
+  justify-content: space-between;
+  color: #1c1c1c;
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+.payment__section-row {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  font-size: 14px;
+  margin: 1rem 0;
+}
+.payment__section-row-item {
+  display: flex;
+  justify-content: space-between;
+}
+.payment__section-row-right {
+  font-weight: 600;
+  color: #1c1c1c;
+}
+.payment__section-button .btn {
+  width: 100%;
+}
+.payment__section-subtitle {
+  margin-top: 1rem;
+  display: flex;
+  border-bottom: 1px solid #cecece;
+  margin-bottom: 1rem;
+  padding-bottom: 0.25rem;
+}
+.payment__section-item input[type=radio] {
+  display: none;
+}
+.payment__section-item img {
+  height: 24px;
+}
+.payment__section-item label {
+  display: inline-flex;
+  border: 1px solid #c7c7c7;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  font-weight: 600;
+  color: #1c1c1c;
+  transition: all 0.3s ease;
+}
+.payment__section-item label.active {
+  border: 1px solid #ff914d;
+}
+.payment__section-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.payment__section-title a {
+  text-align: right;
+  text-decoration: none;
+}
+.payment__section-title a:hover {
+  color: #ff711a;
+}
+.payment__section-detail {
+  border-radius: 1rem;
+  margin-top: 0.5rem;
+}
+.payment__section-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
 }
 
 @media screen and (max-width: 768px) {

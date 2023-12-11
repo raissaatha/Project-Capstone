@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Pembayaran - GADGET GLAM</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+        <link rel="stylesheet" href="./css/main.min.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.6.0/remixicon.min.css" integrity="sha512-pI8MMQ9fC050RkbUOr8cJ75T5bYJpT1PAiML/7QZM6Fr74Ef6csO2/Cl92q+Qpxidm7WonXr6f+DbyxNHPGH8g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
+            <div class="container">
+                <a class="navbar-brand" href="./index.html">
+                    <img src="./img/logo-glam-black.png" alt="Logo GADGET GLAM" />
+                </a>
+            </div>
+        </nav>
+
+        <main>
+            <section class="payment">
+                <div class="container">
+                    <div class="row">
+                        <div class="payment__header">
+                            <h2>Pembayaran</h2>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-8">
+                            <div class="payment__left">
+                                <div class="payment__section">
+                                    <div class="payment__section-title">
+                                        <h4><i class="ri-map-pin-line text-orange"></i> Alamat Pengiriman</h4>
+                                        <a href="#" class="text-orange">Ubah Alamat</a>
+                                    </div>
+                                    <div class="payment__section-detail">
+                                        <p>John Doe</p>
+                                        <p>081234567890</p>
+                                        <p>Jl. Raya Jatiwaringin No. 1, Pondok Gede, Bekasi</p>
+                                        <p>Bekasi, Jawa Barat, 17411</p>
+                                    </div>
+                                </div>
+                                <div class="payment__section">
+                                    <h4><i class="ri-bank-card-line text-orange"></i> Metode Pembayaran</h4>
+
+                                    <div class="payment__section-subtitle">
+                                        <h6>Bayar Menggunakan E-Wallet</h6>
+                                    </div>
+
+                                    <div class="payment__section-list">
+                                        <div class="payment__section-item">
+                                            <label for="dana">
+                                                <img src="./img/payment/logo-dana.png" />
+                                            </label>
+                                            <input type="radio" name="payment-type" id="dana" />
+                                        </div>
+                                        <div class="payment__section-item">
+                                            <label for="ovo">
+                                                <img src="./img/payment/logo-ovo.png" />
+                                            </label>
+                                            <input type="radio" name="payment-type" id="ovo" />
+                                        </div>
+                                        <div class="payment__section-item">
+                                            <label for="gopay">
+                                                <img src="./img/payment/logo-gopay.png" />
+                                            </label>
+                                            <input type="radio" name="payment-type" id="gopay" />
+                                        </div>
+                                    </div>
+                                    <br />
+                                    <div class="payment__section-subtitle">
+                                        <h6>Transfer via Bank</h6>
+                                    </div>
+                                    <div class="payment__section-list">
+                                        <div class="payment__section-item">
+                                            <label for="atmbersama">
+                                                <img src="./img/payment/logo-atmbersama.png" />
+                                            </label>
+                                            <input type="radio" name="payment-type" id="atmbersama" />
+                                        </div>
+
+                                        <div class="payment__section-item">
+                                            <label for="bca">
+                                                <img src="./img/payment/logo-bca.webp" />
+                                            </label>
+                                            <input type="radio" name="payment-type" id="bca" />
+                                        </div>
+
+                                        <div class="payment__section-item">
+                                            <label for="bri">
+                                                <img src="./img/payment/logo-bri.png" />
+                                            </label>
+                                            <input type="radio" name="payment-type" id="bri" />
+                                        </div>
+
+                                        <div class="payment__section-item">
+                                            <label for="mandiri">
+                                                <img src="./img/payment/logo-mandiri.png" />
+                                            </label>
+                                            <input type="radio" name="payment-type" id="mandiri" />
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="payment__right">
+                                <div class="payment__section">
+                                    <div class="payment__section-title">
+                                        <h5>Rincian Harga</h5>
+                                    </div>
+                                    <div class="payment__section-row">
+                                        <div class="payment__section-row-item">
+                                            <p>Total Harga Barang</p>
+                                            <p class="payment__section-row-right">Rp480.000</p>
+                                        </div>
+                                        <div class="payment__section-row-item">
+                                            <p>Ongkos Kirim</p>
+                                            <p class="payment__section-row-right">Rp40.000</p>
+                                        </div>
+                                        <div class="payment__section-row-item">
+                                            <p>Asuransi</p>
+                                            <p class="payment__section-row-right">Rp4.800</p>
+                                        </div>
+                                        <div class="payment__section-row-item">
+                                            <p>Biaya Layanan</p>
+                                            <p class="payment__section-row-right">Rp1.000</p>
+                                        </div>
+                                    </div>
+                                    <div class="payment__section-total">
+                                        <p>Total Pembayaran</p>
+                                        <p>Rp525.800</p>
+                                    </div>
+                                    <div class="payment__section-button">
+                                        <a href="#" class="btn btn-orange">Bayar Sekarang</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 my-4">
+                        <div class="footer__left">
+                            <a href="./index.html"> <img src="./img/logo-glam-white.png" alt="Logo GADGET GLAM" /></a>
+                            <p>MarketPlace khusus perlengkapan komputer terbaik di Indonesia.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-8">
+                        <div class="row">
+                            <div class="col-6 col-md-4 my-4">
+                                <div class="footer__link">
+                                    <h6>Kategori Produk</h6>
+                                    <ul>
+                                        <li><a href="storage.html">Storage</a></li>
+                                        <li><a href="display.html">Display</a></li>
+                                        <li><a href="keyboard.html">Keyboard</a></li>
+                                        <li><a href="audio.html">Audio</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-6 col-md-4 my-4">
+                                <div class="footer__link">
+                                    <h6>Informasi dan Bantuan</h6>
+                                    <ul>
+                                        <li><a href="about.html">About Us</a></li>
+                                        <li><a href="contact.html">Contact Us</a></li>
+                                        <li><a href="career.html">Careers</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-6 col-md-4 my-4">
+                                <div class="footer__link">
+                                    <h6>Halaman Lainnya</h6>
+                                    <ul>
+                                        <li><a href="privacy.html">Privacy Policy</a></li>
+                                        <li><a href="terms.html">Terms & Conditions</a></li>
+                                        <li><a href="faq.html">FAQ</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <script>
+            const paymentItems = document.querySelectorAll('.payment__section-item label');
+            paymentItems.forEach((item) => {
+                item.addEventListener('click', () => {
+                    paymentItems.forEach((item) => {
+                        item.classList.remove('active');
+                    });
+                    item.classList.add('active');
+                });
+            });
+        </script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    </body>
+</html>

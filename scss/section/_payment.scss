@@ -1,0 +1,108 @@
+.payment {
+    padding: 7.5rem 0;
+    padding-bottom: 2.5rem;
+
+    &__header {
+        margin-bottom: 1rem;
+    }
+
+    &__section {
+        padding: 1rem;
+        border: 1px solid #e5e5e5;
+        border-radius: 1rem;
+        background-color: #fff;
+        margin-bottom: 1.5rem;
+
+        &-total {
+            display: flex;
+            justify-content: space-between;
+            color: $text-black;
+            font-size: 18px;
+            font-weight: 700;
+            margin-bottom: 1rem;
+        }
+
+        &-row {
+            display: flex;
+            flex-direction: column;
+            gap: 0.25rem;
+            font-size: 14px;
+            margin: 1rem 0;
+
+            &-item {
+                display: flex;
+                justify-content: space-between;
+            }
+
+            &-right {
+                font-weight: 600;
+                color: $text-black;
+            }
+        }
+
+        &-button {
+            .btn {
+                width: 100%;
+            }
+        }
+
+        &-subtitle {
+            margin-top: 1rem;
+            display: flex;
+            border-bottom: 1px solid #cecece;
+            margin-bottom: 1rem;
+            padding-bottom: 0.25rem;
+        }
+
+        &-item {
+            input[type='radio'] {
+                display: none;
+            }
+
+            img {
+                height: 24px;
+            }
+
+            label {
+                display: inline-flex;
+                border: 1px solid #c7c7c7;
+                padding: 0.5rem 1rem;
+                border-radius: 0.5rem;
+                cursor: pointer;
+                font-weight: 600;
+                color: $text-black;
+                transition: all 0.3s ease;
+
+                &.active {
+                    border: 1px solid $orange;
+                }
+            }
+        }
+
+        &-title {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            a {
+                text-align: right;
+                text-decoration: none;
+
+                &:hover {
+                    color: darken($color: $orange, $amount: 10%);
+                }
+            }
+        }
+
+        &-detail {
+            border-radius: 1rem;
+            margin-top: 0.5rem;
+        }
+
+        &-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+        }
+    }
+}
